@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change Awareness</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Act Now for a Greener Future</h1>
+    <p class="subtitle">Together, we can combat climate change and protect our planet.</p>
+  </header>
+
+  <main>
+    <!-- Facts Section -->
+    <section id="facts">
+      <h2>Did You Know?</h2>
+      <div class="fact-container">
+        <div class="fact-box">
+          <h3>Fact 1</h3>
+          <p>The last decade was the warmest on record globally.</p>
+        </div>
+        <div class="fact-box">
+          <h3>Fact 2</h3>
+          <p>Sea levels are rising at an alarming rate due to melting ice caps.</p>
+        </div>
+        <div class="fact-box">
+          <h3>Fact 3</h3>
+          <p>Deforestation contributes to 15% of global greenhouse gas emissions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="call-to-action">
+      <h2>What Can You Do?</h2>
+      <ul>
+        <li>Reduce your carbon footprint by using public transport or cycling.</li>
+        <li>Switch to renewable energy sources like solar or wind power.</li>
+        <li>Support policies and organizations combating climate change.</li>
+      </ul>
+      <button id="pledge-button">Take the Pledge</button>
+    </section>
+
+    <!-- Animation Section -->
+    <section id="animation">
+      <div class="earth">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/640px-The_Earth_seen_from_Apollo_17.jpg" alt="Earth">
+      </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+      <h2>Test Your Knowledge</h2>
+      <div id="quiz-progress">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="quiz-questions">
+        <!-- Quiz questions will be dynamically inserted here -->
+      </div>
+      <button id="submit-quiz">Submit Quiz</button>
+      <p id="quiz-result"></p>
+    </section>
+
+    <!-- Leaderboard Section -->
+    <section id="leaderboard">
+      <h2>Leaderboard</h2>
+      <ul id="leaderboard-list"></ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions or suggestions? Reach out to us!</p>
+      <form id="contact-form" action="https://formspree.io/f/mqapearb" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-message"></p>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated on the latest climate change news and initiatives.</p>
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <p id="newsletter-message"></p>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media">
+      <h2>Follow Us</h2>
+      <div class="social-icons">
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+          <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter" width="40">
+        </a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" width="40">
+        </a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="40">
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scroll-to-top" title="Go to top">↑</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Climate Change Awareness | Let's Save Our Planet Together</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
