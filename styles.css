@@ -121,6 +121,22 @@ main {
   margin: 10px 0;
 }
 
+#reset-leaderboard {
+  background-color: #ff4d4d; /* Red color for emphasis */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#reset-leaderboard:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
 #pledge-button {
   background-color: #00796b;
   color: white;
