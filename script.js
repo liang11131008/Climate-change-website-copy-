@@ -199,6 +199,19 @@ function updateLeaderboard(score) {
   }
 }
 
+// Reset Leaderboard Button
+document.getElementById("reset-leaderboard").addEventListener("click", function () {
+  // Clear the leaderboard data from localStorage
+  localStorage.removeItem("leaderboard");
+
+  // Clear the displayed leaderboard
+  leaderboard = [];
+  displayLeaderboard();
+
+  // Optional: Show a confirmation message
+  alert("Leaderboard has been reset!");
+});
+
 // Display Leaderboard
 function displayLeaderboard() {
   leaderboardList.innerHTML = leaderboard
