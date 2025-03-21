@@ -456,6 +456,73 @@ details[open] .dropdown-icon {
   background-color: #004d40;
 }
 
+/* About Page Styles */
+#about {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+}
+
+#about h2 {
+  margin-bottom: 20px;
+  color: #00796b;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Team Section */
+#team {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+}
+
+#team h2 {
+  margin-bottom: 20px;
+  color: #00796b;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  min-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member h3 {
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #555;
+}
+
 /* Footer */
 footer {
   text-align: center;
