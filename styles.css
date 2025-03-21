@@ -264,6 +264,45 @@ main {
   border-radius: 5px;
 }
 
+/* Dropdown Section */
+details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: all 0.3s ease;
+}
+
+summary {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00796b;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+summary:hover {
+  background-color: #e0f7fa;
+}
+
+details[open] summary {
+  margin-bottom: 20px;
+}
+
+.dropdown-icon {
+  transition: transform 0.3s ease;
+}
+
+details[open] .dropdown-icon {
+  transform: rotate(180deg);
+}
+
 /* Contact Section */
 #contact {
   text-align: center;
